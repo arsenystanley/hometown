@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    text-align: center;
+    min-width: 400px;
+}
+
+/* hero section */
+
+.hero {
+    background-image: url("images/lisboa.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1,h2 {
+    color: #F1FAEE;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fb8500;
+    font-family: 'Dancing Script', cursive;
+}
+
+.hero h1 {
+    margin-bottom: 5px;
+}
+
+.hero h2 { 
+
+}
+
+/* end hero section */
+
+/* activities section */
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6bd60;
+    background: linear-gradient(#fb8500, #f6bd60) 
+    }
+ 
+ .to-do {
+     display:flex;
+     margin: auto;
+
+ }   
+ 
+ .card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     margin: 20px auto;
+ }
+ 
+ .card img {
+     width: 120px;
+     border-radius: 50%;
+ }
+ /* end activities section */
+ 
+ /* guide section */
+ 
+ .guide {
+     background-color: #f6bd60;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     box-shadow: 5px 5px 4px black;
+     width: 500px;
+     margin: 20px auto;
+     padding: 20px;
+
+ }
+ 
+ #guide-push:hover {
+     background-color: #EE9B00;
+ }
+
+.guide-card {
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.guide-card p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px
+}
+img {
+    width: 160px;
+}
+
+.push:hover {
+    border-bottom: 2px solid black;
+}
+
+.guide-card h3,h4 {
+    font-weight: 800;
+}
+ /* end guide section */
